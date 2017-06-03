@@ -1,0 +1,154 @@
+table.DownloadMatrix {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-family: 'Myriad Pro', 'Myriad Pro Regular', sans-serif;
+}
+
+@media (max-width: 700px) {
+    table.DownloadMatrix {
+        margin: 40px 10px 10px;
+        font-family: 'Myriad Pro', 'Myriad Pro Regular', sans-serif;
+    }
+}
+
+table.DownloadMatrix tbody {
+    font-size: 13px
+}
+
+table.DownloadMatrix th, table.DownloadMatrix td {
+    border: 1px solid #DAE2EC;
+    padding: 5px;
+    height: 40px;
+}
+
+table.DownloadMatrix th:nth-last-child(1), table.DownloadMatrix td:nth-last-child(1) {
+}
+
+table.DownloadMatrix th:first-child, table.DownloadMatrix td:first-child {
+    border-left: none;
+    padding-right: 10px
+}
+
+table.DownloadMatrix td {
+    border-bottom: none;
+    border-top: none
+}
+
+table.DownloadMatrix tr:nth-child(2) {
+    border-bottom: 1px solid #DAE2EC
+}
+
+table.DownloadMatrix td.Checked {
+    color: #00B200;
+    font-size: 14px;
+    font-weight: bold
+}
+
+table.DownloadMatrix td.Unchecked {
+    color: #e0e0e0
+}
+
+table.DownloadMatrix tr:last-child td {
+    border-bottom: 1px solid #DAE2EC
+}
+
+table.DownloadMatrix th {
+    font-size: 16px;
+    font-weight: normal;
+    height: 50px
+}
+
+table.DownloadMatrix th {
+}
+
+table.DownloadMatrix th:first-child {
+    border-top: none;
+}
+
+table.DownloadMatrix td {
+    color: #888888;
+}
+
+table.DownloadMatrix td:first-child {
+}
+
+table.DownloadMatrix tr.FeatureGroup td {
+    font-size: 16px;
+    color: #000;
+    padding-top: 40px;
+    padding-bottom: 20px
+}
+
+table.DownloadMatrix span.label.label-primary {
+    margin-right: 7px;
+    padding: 4px;
+    padding-right: 7px;
+    padding-left: 7px
+}
+
+.btn-primary, .btn-primary:visited, .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    color: #fff;
+    outline: none
+}
+
+.btn-primary, .btn-primary:visited, .btn-primary:focus {
+    background-image: -webkit-linear-gradient(top, #F39519 0, #F27500 100%);
+    background-image: -o-linear-gradient(top, #F39519 0, #F27500 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#F39519), to(#F27500));
+    background-image: linear-gradient(to bottom, #F39519 0, #F27500 100%);
+    border-color: #F39519;
+    background-color: #F27500;
+    border-radius: 6px;
+}
+
+.btn-primary:hover {
+    border-color: #d58512;
+    background-color: #F27500;
+}
+
+.btn-primary:active {
+    border-color: #d58512;
+    background-color: #F27500;
+}
+
+.btn-primary:focus {
+    border-color: #F2B56A;
+}
+
+.btn-primary-img {
+    vertical-align: central;
+    margin-top: -5px
+}
+
+.btn-primary-img-continue {
+    vertical-align: middle;
+    margin-left: 2px;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-col-md-4 {
+    width: 164px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 4px;
+    line-height: 24px
+}
+
+.btn-default, .btn-default:visited, .btn-default:hover, .btn-default:focus, .btn-default:active {
+    color: #F39519;
+    background-color: #fff;
+    background-image: none;
+    border: 2px solid #F39519;
+    outline: none;
+    padding: 0 5px;
+    width: 50px;
+    margin: 0 0 5px 0;
+}
+
+.btn-default:hover {
+    background-color: #fff5c9
+}
