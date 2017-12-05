@@ -1,6 +1,6 @@
 <footer id="footer-bar" class="row" style=" width: 102%; position: fixed; z-index: 1000;">
     <p id="footer-copyright" class="col-xs-12">
-        <a>&copy <?= date('Y', time()) ?> ChurchDB</a>
+        <a>&copy <?= date('Y', time()) ?> SOH Database</a>
     </p>
 
     </p>

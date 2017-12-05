@@ -41,7 +41,7 @@ $member = new Member();
     <header class="navbar" id="header-navbar">
         <div class="container">
             <a href="members.php" id="logo" class="navbar-brand">
-                <h4>FCCF OAU</h4>
+                <h4>SOH Database</h4>
             </a>
 
             <div class="clearfix">

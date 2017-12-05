@@ -55,7 +55,7 @@ $member = new Member();
                         <div class="col-xs-12">
                             <header id="login-header">
                                 <div id="login-logo">
-                                    <h4>FCCFOAU</h4>
+                                    <h4>SOH Database</h4>
                                 </div>
                             </header>
                             <?php if (!empty($_SESSION['message'])) {
